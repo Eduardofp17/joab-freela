@@ -44,6 +44,8 @@ font-weight: 700;
 font-size: 14px;
 line-height: 15px;
 text-align: left;
+display: flex;
+flex-direction: column;
 `;
 
 export const PersonJob = styled.span`

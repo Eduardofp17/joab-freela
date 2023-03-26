@@ -22,3 +22,4 @@ function Card(props: Props): JSX.Element {
 }
 
 export default Card;
+

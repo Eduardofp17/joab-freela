@@ -12,6 +12,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 30px;
 line-height: 35px;
+padding: 0px 20px;
 `;
 export const Cards = styled.div`
     display: flex;
@@ -26,7 +27,7 @@ font-weight: 700;
 font-size: 15px;
 line-height: 18px;
 text-align: center;
-
+padding: 0px 20px;
 `;
 
 export const Feedbacks = styled.div``;
