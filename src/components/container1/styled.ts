@@ -1,7 +1,9 @@
 import styled from 'styled-components'
-
+import { PrimaryBg } from '../../config/colors';
 export const Container = styled.section`
-    padding-bottom: 170px;
+    background-color: ${PrimaryBg};
+    padding: 20px;
+    padding-bottom: 190px;
 `;
 export const H1 = styled.h1`
     font-style: normal;
@@ -9,6 +11,7 @@ export const H1 = styled.h1`
     font-size: 30px;
     line-height: 35px;
     text-align: center;
+    margin: 0;
 `;
 
 export const Description = styled.h3`

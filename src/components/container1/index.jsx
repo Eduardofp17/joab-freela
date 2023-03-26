@@ -12,8 +12,7 @@ function Container1() {
     
         const borderIMG = new Image();
         borderIMG.src = '/images/Border.png';
-        borderIMG.onload = () => ctx.drawImage(borderIMG, 0, 110); 
-        console.log(canvas);
+        borderIMG.onload = () => ctx.drawImage(borderIMG, 0, 106); 
      }
     }, [canvasRef])
     return(
