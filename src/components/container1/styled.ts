@@ -14,7 +14,7 @@ export const H1 = styled.h1`
     margin: 0;
 `;
 
-export const Description = styled.h3`
+export const Description = styled.h2`
     font-style: normal;
     font-weight: 700;
     font-size: 15px;

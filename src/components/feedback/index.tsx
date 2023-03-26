@@ -18,11 +18,16 @@ function Feedback(props: Props): JSX.Element {
                     <Depoimento>{props.depoimento}</Depoimento>
                 </TopCard>
                 <BottomCard>
+                    <div className="img">
+
                     <img src={props.pathIMG} alt={props.altIMG} width={40} height={40}/>
+                    </div>
                     <PersonDescription>
-                        <PersonName>{props.PersonName}</PersonName>
-                        <PersonJob>{props.PersonJob}</PersonJob>
-    
+                        <PersonName>
+                            {props.PersonName}
+                            <PersonJob>{props.PersonJob}</PersonJob>
+                            </PersonName>
+
                     </PersonDescription>
                 </BottomCard>
             </CardFeedback>

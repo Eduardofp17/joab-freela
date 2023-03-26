@@ -9,6 +9,8 @@ height: 171.58px;
 padding: 5px;
 display: flex;
 flex-direction: column;
+justify-content: space-between;
+margin: auto;
 `;
 
 export const TopCard = styled.div`
@@ -41,10 +43,10 @@ export const PersonName = styled.p`
 font-weight: 700;
 font-size: 14px;
 line-height: 15px;
-
+text-align: left;
 `;
 
-export const PersonJob = styled.p`
+export const PersonJob = styled.span`
     font-style: normal;
 font-weight: 400;
 font-size: 11px;

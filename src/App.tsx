@@ -5,7 +5,7 @@ import Container3 from "./components/container3";
 import Container4 from './components/container4';
 
 function App() {
-
+  const year = new Date().getFullYear();
   return (
     <div className="App" style={{backgroundColor:'#fff', display: 'flex', flexDirection: 'column'}}>
       <header style={{borderBottom: '1px solid #fff', textAlign: 'left', backgroundColor: PrimaryBg, padding: '0px'}}>
@@ -16,6 +16,8 @@ function App() {
      <Container2 />
      <Container3 />
      <Container4 />
+     <footer style={{backgroundColor: "#141414"}}><p >Copyright &copy; {year} Joab. Todos os direitos
+            reservados.</p></footer>
     </div>
   )
 }
