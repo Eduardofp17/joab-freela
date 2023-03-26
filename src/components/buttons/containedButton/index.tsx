@@ -20,7 +20,10 @@ function ContainedButton(props: Props): JSX.Element {
         flexDirection: 'row',
         justifyContent: 'space-between',
        alignContent: 'center',
-       gap: '5px'
+       gap: '5px', 
+       width: '100%',
+       maxWidth: '360px',
+       margin: 'auto',
       }}><span style={{paddingRight: '20px'}}></span>{props.textButton} <ArrowForwardIcon style={{border: '2px solid #000', borderRadius: '100px',fontSize: '28px', padding: '1px'}}/></Button>
         </React.Fragment>
     )

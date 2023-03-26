@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    background-color: #141414;
-    color: #fff;
+    background-color: #fff ;
+    color: #000;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 `;
 
 export const H2 = styled.h2`
@@ -21,3 +20,14 @@ export const Cards = styled.div`
     flex-wrap: wrap;
     gap: 20px;
 `;
+
+export const H4 = styled.h4`
+    font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+`;
+
+export const Feedbacks = styled.div``;
