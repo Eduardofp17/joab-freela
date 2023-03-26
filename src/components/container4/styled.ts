@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    background-color: #fff ;
+    background-color: #E0E0E0 ;
     color: #000;
-    padding: 20px;
     display: flex;
     flex-direction: column;
 `;
