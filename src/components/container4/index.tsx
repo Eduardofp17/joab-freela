@@ -6,12 +6,12 @@ function Container4(): JSX.Element {
     return (
         <React.Fragment>
             <Container>
-                <div className="texts">
+                <div className="texts" style={{boxShadow: ''}}>
                     <H2>Depoimentos</H2>
                     <H4>Entenda como ajudamos os nossos alunos a se tornarem experts no assunto.</H4>
 
                 </div>
-                <Carousel sx={{width: '100%', height: '250px', padding: '10px', margin: 'auto'}} animation="slide" autoPlay={false} cycleNavigation={false}>
+                <Carousel sx={{width: '100%', height: '280px', padding: '20px', margin: 'auto'}} animation="slide" autoPlay={false} cycleNavigation={false}>
                     <Feedback depoimento='Agradeço pelos ensinamentos , alavanquei meu negócio graça a este curso!!!' PersonName='Suzana Gomes' PersonJob='MKT Service LTDA' pathIMG='/images/woman.png' altIMG='Foto da Suzana Gomes'/>
                     <Feedback depoimento='Fico grato por tudo que aprendi. Creio que tive outra visão a respeito do mercado digital após esse produto.
 ' PersonName='Alex Magno' PersonJob='Escritor e Empresário

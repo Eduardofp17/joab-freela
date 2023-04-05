@@ -12,6 +12,9 @@ export const H1 = styled.h1`
     line-height: 35px;
     text-align: center;
     margin: 0;
+    @media screen and (min-width: 900px){
+        font-size: 35px;
+    }
 `;
 
 export const Description = styled.h2`
@@ -21,4 +24,11 @@ export const Description = styled.h2`
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 500px;
+    margin-top: 20px;
+    @media screen and (min-width: 900px){
+        font-size: 18px;
+        margin: auto;
+        margin-top: 20px;
+    }
 `;
